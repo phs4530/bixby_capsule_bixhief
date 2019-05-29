@@ -1,11 +1,11 @@
 install
  - node.js 
-    https://nodejs.org/ko/
+    - https://nodejs.org/ko/
  - koa 
-    npm add koa
+    - npm add koa
  - nodemon
-    npm install -g nodemon
-    nodemon --watch src/ src
+    - npm install -g nodemon
+    - nodemon --watch src/ src
  
 
 recipe dataset
