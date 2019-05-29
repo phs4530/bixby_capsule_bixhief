@@ -1,4 +1,4 @@
-//install//
+#install
  - node.js 
     - https://nodejs.org/ko/
  - koa 
@@ -7,7 +7,7 @@
     - npm install -g nodemon
     - nodemon --watch src/ src
     - nodemon init
-    '''
+    <pre><code>
     {
   "name": "nodejs_study",
   "version": "1.0.0",
@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC"
 }
-    '''
+    </code></pre>
 
 
 recipe dataset
