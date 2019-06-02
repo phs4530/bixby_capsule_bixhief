@@ -1,6 +1,6 @@
 # 05.30
 
-import pandas as pd
+# import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 
@@ -238,5 +238,7 @@ for manual20 in manual20_api:
 for manual_img20 in manual_img20_api:
     manual_img20_list.append(manual_img20.text)
 
-
-print(rcp_seq_list[0])
+print("222")
+for i in range(0, 5):
+    print(info_wgt_list[i]+"1")
+    # print(rcp_nm_list[i])
