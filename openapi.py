@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-url='http://openapi.foodsafetykorea.go.kr/api/e04a6c69c11641708150/COOKRCP01/xml/1/5'
+url='http://openapi.foodsafetykorea.go.kr/api/key/COOKRCP01/xml/1/5'
 req=requests.get(url)
 html=req.text
 soup=BeautifulSoup(html, 'html.parser')
